@@ -1,18 +1,196 @@
 {
-  "usuarios": [
+  "destaques": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "1",
+      "targetId": "sel-1",
+      "titulo": "A Seleção",
+      "descricao": "Romance real em um mundo de castas — intrigas, escolhas e amor.",
+      "imagem": "livroaselecao.png"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "2",
+      "targetId": "sus-1",
+      "titulo": "Verity",
+      "descricao": "Suspense psicológico intenso, segredos e manipulação.",
+      "imagem": "livrosuspense1.png"
+    },
+    {
+      "id": "3",
+      "targetId": "men-1",
+      "titulo": "Os Mentirosos",
+      "descricao": "Família poderosa, ilha e uma verdade que muda tudo.",
+      "imagem": "livrosuspense2.png"
+    },
+    {
+      "id": "4",
+      "targetId": "rom-1",
+      "titulo": "É Assim que Acaba",
+      "descricao": "Coragem para romper ciclos e recomeçar.",
+      "imagem": "livroromance1.png"
+    },
+    {
+      "id": "5",
+      "targetId": "cul-2",
+      "titulo": "Sua Culpa",
+      "descricao": "Continuação intensa — sentimentos, decisões e amadurecimento.",
+      "imagem": "livrosuaculpa.png"
+    }
+  ],
+  "livros": [
+    {
+      "id": "rom-2",
+      "titulo": "Novembro, 9",
+      "autor": "Colleen Hoover",
+      "imagem": "livroromance2.png",
+      "genero": "Romance",
+      "nota": 4.6,
+      "descricao": "Fallon e Ben se conhecem em 9 de novembro e combinam se ver anualmente. Entre ficção e realidade, segredos do passado emergem e ameaçam um amor que parecia inevitável.",
+      "detalhes": {
+        "editora": "Galera Record",
+        "ano": 2017,
+        "paginas": 336
+      },
+      "fotos": [
+        {
+          "titulo": "Capa/arte do encontro",
+          "imagem": "novembro9.png"
+        },
+        {
+          "titulo": "Primeiro encontro",
+          "imagem": "primeiroencontro.png"
+        }
+      ]
+    },
+    {
+      "id": "cul-1",
+      "titulo": "Minha Culpa",
+      "autor": "Mercedes Ron",
+      "imagem": "capafilme.png",
+      "genero": "Ficção, Romance Contemporâneo",
+      "nota": 4.4,
+      "descricao": "Ao mudar-se com a mãe para a casa do novo padrasto, Noah conhece Nick — seu meio-irmão rebelde. Entre provocações e química, ela encara dilemas morais e emocionais. Romance intenso sobre descobertas e limites. Um dos maiores acertos foi transformar toda a coleção de Minha Culpa em filme, tornando-os um grande sucesso.",
+      "detalhes": {
+        "editora": "Universo dos Livros",
+        "ano": 2023,
+        "paginas": 384
+      },
+      "fotos": [
+        {
+          "titulo": "Noah & Nick",
+          "imagem": "noahenick.png"
+        },
+        {
+          "titulo": "Poster/arte do filme",
+          "imagem": "capafilme.png"
+        }
+      ]
+    },
+    {
+      "id": "cul-2",
+      "titulo": "Sua Culpa",
+      "autor": "Mercedes Ron",
+      "imagem": "livrosuaculpa.png",
+      "genero": "Romance Contemporâneo, Drama",
+      "nota": 4.3,
+      "descricao": "Continuação de ‘Minha Culpa’. Noah e Nick tentam seguir caminhos separados, mas a conexão entre eles insiste em voltar à tona. Entre reencontros e novos desafios, o amadurecimento fala mais alto.",
+      "detalhes": {
+        "editora": "Universo dos Livros",
+        "ano": 2024,
+        "paginas": 400
+      },
+      "fotos": [
+        {
+          "titulo": "Reencontro",
+          "imagem": "reecontro.png"
+        },
+        {
+          "titulo": "Momentos intensos",
+          "imagem": "intenso.png"
+        }
+      ]
+    },
+    {
+      "id": "sel-1",
+      "titulo": "A Seleção",
+      "autor": "Kiera Cass",
+      "imagem": "livroaselecao.png",
+      "genero": "Romance Distópico, Jovem Adulto",
+      "nota": 4.7,
+      "descricao": "Em uma sociedade dividida por castas, 35 garotas disputam o coração do príncipe Maxon. America Singer não deseja a coroa, mas descobrirá que o palácio pode mudar seu destino — e o do país.",
+      "detalhes": {
+        "editora": "Seguinte",
+        "ano": 2012,
+        "paginas": 368
+      },
+      "fotos": [
+        {
+          "titulo": "Baile no palácio",
+          "imagem": "bailenopalacio.png"
+        },
+        {
+          "titulo": "As candidatas",
+          "imagem": "candidatas.png"
+        }
+      ]
+    },
+    {
+      "id": "sus-1",
+      "titulo": "Verity",
+      "autor": "Colleen Hoover",
+      "imagem": "livrosuspense1.png",
+      "genero": "Suspense Psicológico",
+      "nota": 4.7,
+      "descricao": "Lowen é contratada para continuar a série de Verity Crawford. Isolada na casa da autora, encontra um manuscrito perturbador que revela segredos sombrios — e precisa decidir em quem pode confiar.",
+      "detalhes": {
+        "editora": "Galera Record",
+        "ano": 2021,
+        "paginas": 320
+      },
+      "fotos": [
+        {
+          "titulo": "Casa dos Crawford",
+          "imagem": "casacrawford.png"
+        },
+        {
+          "titulo": "Manuscrito",
+          "imagem": "manuscrito.png"
+        }
+      ]
+    },
+    {
+      "id": "men-1",
+      "titulo": "Os Mentirosos",
+      "autor": "E. Lockhart",
+      "imagem": "livrosuspense2.png",
+      "genero": "Mistério",
+      "nota": 4.5,
+      "descricao": "Cadence Sinclair passa os verões em uma ilha com a família. Após um acidente, perde parte da memória. Reconstruir aquele verão revelará verdades dolorosas.",
+      "detalhes": {
+        "editora": "Seguinte",
+        "ano": 2014,
+        "paginas": 272
+      },
+      "fotos": [
+        {
+          "titulo": "Ilha da família",
+          "imagem": "ilhadafamilia.png"
+        },
+        {
+          "titulo": "Os quatro mentirosos",
+          "imagem": "osmentirosos.png"
+        }
+      ]
+    },
+    {
+      "id": "f33a"
+    },
+    {
+      "id": "65c8",
+      "titulo": "Minha Culpa (teste API)",
+      "autor": "Mercedes Ron",
+      "descricao": "Teste de POST no json-server.",
+      "imagem": "capafilme.png",
+      "genero": "Romance"
     }
   ]
 }
