@@ -6,24 +6,24 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Isabela Pinheiro de Oliveira
+- Matricula: 1552557
+- Proposta de projeto escolhida: Temas e Conteúdos Associados
+- Breve descrição sobre seu projeto: Recomendações de livros
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+![alt text](<Captura de tela 2025-11-02 194629.png>)
 
-<< COLOQUE A IMAGEM POST AQUI >>
+![alt text](<Captura de tela 2025-11-02 195433.png>)
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+![alt text](<Captura de tela 2025-11-02 200109.png>)
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+![alt text](<Captura de tela 2025-11-02 200332.png>)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-![alt text](<Captura de tela 2025-11-02 205158.png>)
+![alt text](image-1.png)
 
 ## **Orientações Gerais**
 
